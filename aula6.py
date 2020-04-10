@@ -18,8 +18,12 @@ print(conjunto_subset)
 conjunto_superset = conjunto_b.issuperset(conjunto_a)
 print(conjunto_superset)
 
-
-
+lista = ['cachorro', 'gato', 'rato', 'gato', 'elefante']
+print(lista)
+conjunto_animais = set(lista)
+print(conjunto_animais)
+lista_animais = list(conjunto_animais)
+print(lista_animais)
 
 # conjunto = { 1 , 2, 3, 4}
 # conjunto.add(5)
