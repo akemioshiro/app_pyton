@@ -17,14 +17,16 @@ class Televisao:
         if self.ligada:
             self.canal -=1
 
-televisao = Televisao()
-print((televisao.ligada))
-televisao.power()
-print(televisao.ligada)
-print(televisao.canal)
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-print(televisao.canal)
-televisao.diminui_canal()
-print(televisao.canal)
+
+if __name__ == '__main__':
+    televisao = Televisao()
+    print((televisao.ligada))
+    televisao.power()
+    print(televisao.ligada)
+    print(televisao.canal)
+    televisao.aumenta_canal()
+    televisao.aumenta_canal()
+    televisao.aumenta_canal()
+    print(televisao.canal)
+    televisao.diminui_canal()
+    print(televisao.canal)
