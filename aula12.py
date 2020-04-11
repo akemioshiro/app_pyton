@@ -9,3 +9,5 @@ def retorna_dados_cep(cep):
 
 if __name__ == '__main__':
     retorna_dados_cep('03961020')
+
+#instalação de package
