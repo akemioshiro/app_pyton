@@ -6,4 +6,10 @@ print(pares)
 lista_aninhada = [(i,j) for i in range(3) for j in range(2)]
 print(lista_aninhada)
 
-#13.2	DICTS	COMPREHENSIONS
+message =  'O nome do aluno é {nome}'.format(nome='Patricia')
+print(message)
+
+# função enumerate
+impostos = ['MEI', 'Simples']
+for i,imposto in enumerate(impostos):
+    print(i, imposto)
