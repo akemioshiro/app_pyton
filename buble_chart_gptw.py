@@ -12,16 +12,20 @@ slide = prs.slides.add_slide(prs.slide_layouts[5])
 chart_data = XyChartData()
 
 series_1 = chart_data.add_series('Sua empresa')
-series_1.add_data_point(0.7, 2.7)
+series_1.add_data_point(100, 90)
+series_1.add_data_point(100, 90)
+series_1.add_data_point(100, 90)
 
 series_2 = chart_data.add_series('outra 1')
-series_2.add_data_point(1.3, 3.7)
+series_2.add_data_point(93, 78)
+series_2.add_data_point(63, 85)
+series_2.add_data_point(86, 90)
 
-series_2 = chart_data.add_series('outra 2')
-series_2.add_data_point(3.3, 1.7)
+#series_2 = chart_data.add_series('outra 2')
+#series_2.add_data_point(3.3, 1.7)
 
-series_2 = chart_data.add_series('outra 3')
-series_2.add_data_point(2.3, 6.7)
+#series_2 = chart_data.add_series('outra 3')
+#series_2.add_data_point(2.3, 6.7)
 
 
 
